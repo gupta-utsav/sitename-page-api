@@ -1,0 +1,6 @@
+name: Sitename Page Api
+description: Authenticates & provides Node Json using API key.
+package: Custom
+
+type: module
+core: 8.x

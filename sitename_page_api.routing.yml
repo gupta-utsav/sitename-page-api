@@ -1,0 +1,11 @@
+siteapikey.content:
+  path: '/page_json/{siteinfo_api_key}/{nid}'
+  defaults:
+    _controller: '\Drupal\sitename_page_api\Controller\NodeAuthenticationController::content'
+  options:
+      parameters:
+        siteinfo_api_key:
+          type: String
+   requirements:
+     _permission: 'access content'
+        nid: \d+ 
