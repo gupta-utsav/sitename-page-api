@@ -6,7 +6,6 @@
 namespace Drupal\sitename_page_api\Controller;
 
 use Drupal\node\Entity\Node;
-use Drupal\node\NodeInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
 
 
@@ -28,8 +27,8 @@ class NodeAuthenticationController{
 			// Make sure the supplied node id is valid, content type is a page, the configuration key is set and matches the supplied key
 			if (!empty($node) && $node->getType() == 'page' && $siteinfo_api_key_stored != 'No API Key yet' && $siteinfo_api_key_stored == $siteinfo_api_key){
 
-            // Displays the json representation of the node
-            return new JsonResponse($node->toArray(), 200, ['Content-Type'=> 'application/json']);
+            		// Displays the json representation of the node
+            		return new JsonResponse($node->toArray(), 200, ['Content-Type'=> 'application/json']);
 		}
 
 			// Respond with access denied
