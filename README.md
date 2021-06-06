@@ -25,6 +25,6 @@ Overall time for coding and testing ~ 3.5 Hours
 
 ### Referances
 
-[Form Alter](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Form%21form.api.php/function/hook_form_FORM_ID_alter/8.8.x)
-[Editing & Setting value for variable object](https://www.drupal.org/docs/upgrading-and-converting-drupal-7-modules/step-4-convert-drupal-7-variables-to-drupal-8)
-[JSON Response]https://api.drupal.org/api/drupal/vendor%21symfony%21http-foundation%21JsonResponse.php/class/JsonResponse/8.6.x
+- [Form Alter](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Form%21form.api.php/function/hook_form_FORM_ID_alter/8.8.x)
+- [Editing & Setting value for variable object](https://www.drupal.org/docs/upgrading-and-converting-drupal-7-modules/step-4-convert-drupal-7-variables-to-drupal-8)
+- [JSON Response](https://api.drupal.org/api/drupal/vendor%21symfony%21http-foundation%21JsonResponse.php/class/JsonResponse/8.6.x)
